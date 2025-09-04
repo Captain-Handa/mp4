@@ -704,7 +704,8 @@
 }
 
 .fa_like_div {
-  float: right;
+  float: left;
+  padding-left: 30px;
 }
 
 .rep-button,
@@ -721,6 +722,13 @@
 
 .rep-button.fa_liked {
   background-image: linear-gradient(to right, #70af4c, #698842f7, #1a8365);
+}
+
+.tema-escuro .rep-button,
+.rep-button:focus,
+.rep-button:active {
+    background-image: linear-gradient(to right, #304c9f, #425194f7, #33395d);
+    border: 2px solid #333333;
 }
 
 .hr1 {
@@ -862,4 +870,5 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 

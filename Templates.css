@@ -708,9 +708,7 @@
   padding-left: 30px;
 }
 
-.rep-button,
-.rep-button:focus,
-.rep-button:active {
+.rep-button,.rep-button:focus, .rep-button:active {
   border-radius: 10px;
   background-image: linear-gradient(to right, #304c9f, #7789d4f7, #8b98e8);
   border: 2px solid white;
@@ -724,9 +722,7 @@
   background-image: linear-gradient(to right, #70af4c, #698842f7, #1a8365);
 }
 
-.tema-escuro .rep-button,
-.rep-button:focus,
-.rep-button:active {
+.tema-escuro .rep-button, .rep-button:focus, .rep-button:active {
     background-image: linear-gradient(to right, #304c9f, #425194f7, #33395d);
     border: 2px solid #333333;
 }
@@ -870,5 +866,6 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 

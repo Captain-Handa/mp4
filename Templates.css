@@ -27,6 +27,10 @@
   font-family: 'calibri';
 }
 
+.tema-escuro .intro-2 { 
+    color: #ffffff;
+}
+
 .intro-title {
   text-align: left;
   text-transform: uppercase;
@@ -858,3 +862,4 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+

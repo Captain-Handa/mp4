@@ -2,6 +2,11 @@
 .intro-1 {
   width: 80%; min-height: 250px; background-color: #fff; box-shadow: 0px 0px 5px #434e93; margin: auto; border: 3px solid white; border-radius: 20px;
 }
+
+.tema-escuro .intro-1 {
+  width: 80%; min-height: 250px; background-color: #000; box-shadow: 0px 0px 5px #434e93; margin: auto; border: 3px solid white; border-radius: 20px;
+}
+
 .intro-img {
   width: 100%; border-radius: 20px 20px 0px 0px;
 }
@@ -580,6 +585,14 @@
 .hr2 {background-color: #b1b1b1;color: #b1b1b1;box-shadow: 0px 0px 3px #b1b1b1;}
 .hr3 {background-color: #888fb8;color: #888fb8;box-shadow: 0px 0px 3px #888fb8;}
 
-
-
-
+.jornal-box{margin-top:10px;border-radius:12px;background:#fff;box-shadow:0 6px 16px rgba(0,0,0,.12);overflow:hidden;border:1px solid #e8ecf7;}
+.jornal-title{padding:10px 14px;color:#fff;font-weight:bold;letter-spacing:.5px;font-size:14px;}
+.jornal-text{padding:12px 14px;font-size:13px;color:#333;line-height:1.5;}
+.jornal-extra{padding:12px;background:#f6f9ff;border-top:1px solid #e0e8ff;font-size:13px;}
+.grad-azul{background:linear-gradient(90deg,#0f3d7a,#5cb6d1);}
+.grad-vermelho{background:linear-gradient(90deg,#5c1f1f,#9f2f2f);}
+.grad-verde{background:linear-gradient(90deg,#225a2f,#3ba34c);}
+.grad-azul-escuro{background:linear-gradient(90deg,#0f3d7a,#1f4b9f);}
+.grad-marrom{background:linear-gradient(90deg,#7a4b00,#b57b2f);}
+.grad-vermelho-claro{background:linear-gradient(90deg,#9f2f2f,#d15c5c);}
+.grad-azul-profundo{background:linear-gradient(90deg,#0f3d7a,#2f4b9f);}

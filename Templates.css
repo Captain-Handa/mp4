@@ -844,3 +844,17 @@
   margin: 8px 0 0 18px;
   line-height: 1.6;
 }
+
+.tema-escuro .group-box {
+  background: #222222;
+  color: #fff;
+}
+
+.tema-escuro .info-box.danger {
+    background: #262626;
+    color: #fff;
+}
+
+.tema-escuro .info-box .note {
+    color: #eca2a2;
+}

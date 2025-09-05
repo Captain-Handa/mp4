@@ -290,6 +290,12 @@
   -webkit-box-shadow: inset 50px 0px 14px -12px #ffffff;
 }
 
+.talento-text {
+  padding: 2px;
+  line-height: 10px;
+  margin-top: -2px;
+}
+
 .coin {
   background-color: #fafbff;
   width: 32%;
@@ -703,6 +709,13 @@
   padding: 2px 4px 2px 2px;
 }
 
+.npc-nome b {
+  float: right;
+  text-transform: capitalize;
+  font-size: small;
+  font-weight: 200;
+}
+
 .npc-origem {
   background-image: linear-gradient(to right, #2f4b9f, #5cb6d100);
   text-align: left;
@@ -890,6 +903,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

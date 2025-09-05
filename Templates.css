@@ -332,9 +332,13 @@
   -webkit-box-shadow: inset 50px 0px 14px -12px #ffffff;
 }
 
+.tema-escuro .talento-right {
+    -webkit-box-shadow: inset 50px 0px 14px -12px #171616;
+}
+
 .talento-text {
   padding: 2px;
-  line-height: 10px;
+  line-height: 15px;
   margin-top: -2px;
 }
 
@@ -345,6 +349,10 @@
   box-shadow: -3px 3px 0px 1px #888fb8;
   margin: auto;
 }
+
+.tema-escuro .coin {
+    background-color: #131313;
+  }
 
 .coin-box {
   width: 70px;
@@ -401,6 +409,10 @@
   background-image: linear-gradient(to right, #aa9cbb, #ffffff);
 }
 
+.tema-escuro .akuma-box { 
+    background-image: linear-gradient(to right, #472c68, #ffffff00);
+}
+
 .akuma-talent {
   background-image: linear-gradient(to right, #a48bc1, #ffffff);
   width: 100%;
@@ -409,6 +421,25 @@
   border-left: 5px solid #a45fe1;
   margin: auto;
 }
+
+.tema-escuro .akuma-talent {
+ background-image: linear-gradient(to right, #52396e, #ffffff00);
+}
+
+.akuma-tag {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 4px;
+  margin: 2px;
+  border-left: 5px solid #510303;
+}
+
+.tema-escuro .akuma-tag {
+    background: #21162c;
+    border-left: 5px solid #c13daf;
+}
+
 /* Borda preta e recorte do losango maior */
 .losango4-wrap {
   --b: 3px;
@@ -465,6 +496,10 @@
   box-shadow: -3px 3px 0px #000000;
 }
 
+.tema-escuro .haki { 
+  background: linear-gradient(90deg, #1d2425, #ffe2e200);
+}
+
 /* Contêiner */
 .haki-progress {
   background: #222;
@@ -518,6 +553,10 @@
   margin-top: -15px;
 }
 
+.tema-escuro .intem-card { 
+    background: #181818;
+}
+
 .item-header {
   background-image: linear-gradient(to right, #244688, #2892e0);
   color: #fff;
@@ -529,6 +568,10 @@
 .item-header.comum    { background: linear-gradient(to right, #244688, #2892e0); }
 .item-header.raro     { background: linear-gradient(to right, #472488, #6972af); }
 .item-header.lendario { background: linear-gradient(to right, #5a4524, #e0dc28); }
+
+.tema-escuro .item-header.navio {
+    background: linear-gradient(to right, #0a5882, #19538e, #00406b);
+}
 
 /* contêiner pai deve ser relativo para posicionar o preview */
 .item-body {
@@ -549,6 +592,11 @@
   cursor: pointer;
 }
 
+.tema-escuro .item-image {
+    background: #2d2b2b;
+    border: 1px solid #666666;
+}
+
 /* preview escondido */
 .item-preview {
   position: absolute;
@@ -562,6 +610,11 @@
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease;
+}
+
+.tema-escuro .item-preview {
+    background: #2d2b2b;
+    border: 1px solid #666666;
 }
 
 .item-preview img {
@@ -636,6 +689,21 @@
   min-height: 50px;
 }
 
+.tema-escuro .item-description {
+    border: 1px solid #666666;
+    background: #2d2b2b;
+}
+
+.tema-escuro .item-stat .label {
+    background: #235fa2;
+}
+
+.tema-escuro .item-stat .value {
+    background: #2f2f2f;
+    color: #ffffff;
+    padding: 2px;
+}
+
 .ship-description {
   border: 1px solid #91a7bb;
   background-image: linear-gradient(45deg, #c3f3ff, transparent);
@@ -643,6 +711,11 @@
   font-size: 13px;
   min-height: 50px;
 }
+
+.tema-escuro .ship-description {
+    background-image: linear-gradient(45deg, #0e1f4966, transparent);
+}
+
 .tag {
   align-items: center;
   box-shadow: 0px 2px 6px -2px #b3b3fb;
@@ -737,7 +810,7 @@
 }
 
 .tema-escuro .npc-ficha {
-    background-image: linear-gradient(to right, #7b9cff6e, #ffffff00);
+    background-image: linear-gradient(to right, #23419d6e, #ffffff00);
     color: #ffffff;
 }
 
@@ -945,6 +1018,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

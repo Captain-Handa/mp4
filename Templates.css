@@ -831,6 +831,7 @@
 
 .tema-escuro .p-ficha {
     background-image: linear-gradient(to right, #0515466e, #ffffff00);
+    color: #fff;
 }
 
 .p-avatar {
@@ -1056,6 +1057,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

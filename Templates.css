@@ -815,7 +815,7 @@
     color: #ffffff;
 }
 
-.-p-ficha {
+.p-ficha {
     background-image: linear-gradient(to right, #7b9cff6e, #ffffff);
     text-align: left;
     padding: 5px;
@@ -1047,6 +1047,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

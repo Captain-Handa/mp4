@@ -377,6 +377,10 @@
   border-bottom: 3px solid #25569a;
 }
 
+.modo-escuro .tab-container {
+    background-image: linear-gradient(to right, #304c9f, #283051f7, #172472);
+}
+
 .tab {
   padding: 5px 15px;
   cursor: pointer;
@@ -825,6 +829,10 @@
     border-radius: 15px;
 }
 
+.tema-escuro .p-ficha {
+    background-image: linear-gradient(to right, #0515466e, #ffffff00);
+}
+
 .p-avatar {
   box-shadow: -3px 4px 0px 0px #2f4b9f;
   height: 100px;
@@ -841,6 +849,7 @@
   border: 3px solid #ccc;
   margin-left: 5px;
   margin-top: 5px;
+  border-radius: 15px;
 }
 
 .npc-nome {
@@ -1047,6 +1056,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

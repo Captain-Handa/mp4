@@ -276,6 +276,48 @@
   margin-right: 7px;
 }
 
+.talento-tag {
+  background-image: linear-gradient(to right, #244688, #2892e0);
+  text-align: left;
+  width: 400px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  padding: 2px 4px 2px 2px;
+}
+
+.talento-tag.combatente {
+  background-image: linear-gradient(to right, #510303, #fc9e9e00);
+}
+
+.talento-tag.estrategista {
+  background-image: linear-gradient(to right, #0b255a, #fc9e9e00);
+}
+
+.talento-tag.medico {
+  background-image: linear-gradient(to right, #417890, #fc9e9e00);
+}
+
+.talento-tag.carpinteiro {
+  background-image: linear-gradient(to right, #563425, #fc9e9e00);
+}
+
+.talento-tag.navegador {
+  background-image: linear-gradient(to right, #796743, #fc9e9e00);
+}
+
+.talento-tag.rastreador {
+  background-image: linear-gradient(to right, #2d580a, #fc9e9e00);
+}
+
+.talento-tag.charlatao {
+  background-image: linear-gradient(to right, #300351, #fc9e9e00);
+}
+
+.talento-tag.ladino {
+  background-image: linear-gradient(to right, #a43499, #fc9e9e00);
+}
+
 .talento-box {
   width: auto;
   height: 60px;
@@ -903,6 +945,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

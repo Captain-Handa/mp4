@@ -377,7 +377,7 @@
   border-bottom: 3px solid #25569a;
 }
 
-.modo-escuro .tab-container {
+.tema-escuro .tab-container {
     background-image: linear-gradient(to right, #304c9f, #283051f7, #172472);
 }
 
@@ -1069,6 +1069,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

@@ -815,6 +815,34 @@
     color: #ffffff;
 }
 
+.-p-ficha {
+    background-image: linear-gradient(to right, #7b9cff6e, #ffffff);
+    text-align: left;
+    padding: 5px;
+    color: #000;
+    border: 3px solid #304c9f;
+    min-height: 380px;
+    border-radius: 15px;
+}
+
+.p-avatar {
+  box-shadow: -3px 4px 0px 0px #2f4b9f;
+  height: 100px;
+  border: 3px solid #ccc;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+  height: auto;
+}
+
+.p-icone {
+  box-shadow: -3px 3px 0px 0px #2f4b9f;
+  height: 110px;
+  border: 3px solid #ccc;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 .npc-nome {
   background-image: linear-gradient(to right, #2f4b9f, #5cb6d1);
   text-align: left;
@@ -1019,6 +1047,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

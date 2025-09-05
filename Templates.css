@@ -487,7 +487,7 @@
 }
 
 .haki {
-  background: linear-gradient(90deg, #bababa, #ffe2e200);
+  background: linear-gradient(90deg, #e2f4ff, #ffe2e200);
   width: auto;
   height: 66px;
   padding-left: 3px;
@@ -547,13 +547,14 @@
 .haki-progress.observacao .fill   { background: linear-gradient(90deg, #6b1174, #db72ea); }
 .haki-progress.elemental .fill    { background: linear-gradient(90deg, #2a7b2c, #57ad51); }
 
-.item-card {
+.item-card {  
+  line-height: 18px;
   background: #f4f6f9;
   box-shadow: 0px 2px 4px #283b54;
   margin-top: -15px;
 }
 
-.tema-escuro .intem-card { 
+.tema-escuro .item-card { 
     background: #181818;
 }
 
@@ -1018,6 +1019,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

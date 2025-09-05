@@ -819,12 +819,17 @@
     color: #ffffff;
 }
 
+.p-ficha-box {
+    width: 97%;
+    margin: auto;
+    background-image: linear-gradient(to right, #7b9cff6e, #ffffff);
+    border: 3px solid #304c9f;
+}
 .p-ficha {
     background-image: linear-gradient(to right, #7b9cff6e, #ffffff);
     text-align: left;
     padding: 5px;
     color: #000;
-    border: 3px solid #304c9f;
     min-height: 380px;
     border-radius: 15px;
 }
@@ -1057,6 +1062,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

@@ -250,11 +250,17 @@
 .atributo span.tag { background: #19324e3d; }
 
 .atributo-tab {
-    color: #000000;
-    margin-bottom: 7px;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #94b0ff, #a9bafff7, #526aff);
-    box-shadow: 0px 0px 3px 0px #4f6987;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #94b0ff, #a9bafff7, #8294ff);
+  box-shadow: 0px 0px 3px 0px #4f6987;
+  width: fit-content;
+  padding: 3px;
+  margin-top: 3px;
+  box-shadow: -3px 3px 0px 0px #2f4b9f;
+  border: 3px solid #ccc;
 }
 
 .talento {
@@ -1078,6 +1084,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

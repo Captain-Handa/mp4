@@ -228,25 +228,26 @@
 .atributo span {
   display: inline-flex;
   align-items: center;
-  padding: 3px 8px;
+  padding: 3px 4px;
   font-weight: 700;
   color: #fff;
-  margin-left: 6px;
+  margin-left: 3px;
   box-shadow: -3px 3px 2px 0px #8a929b;
+  border-radius: 15px;
 }
 
 .atributo span b { margin-right: 6px; }
 
-.atributo span.hp  { background: #5d1818; margin-left: 0px; }
-.atributo span.ep  { background: #21485d; }
-.atributo span.re  { background: #14513c; }
-.atributo span.df  { background: #5e2474; }
-.atributo span.vl  { background: #714620; }
-.atributo span.cap { background: #491e10; }
-.atributo span.po  { background: #443d3d; }
-.atributo span.ap  { background: #767272; }
-.atributo span.ki  { background: #712c62; }
-.atributo span.tag { background: #19324e; }
+.atributo span.hp  { background: #5d18183d; margin-left: 0px; }
+.atributo span.ep  { background: #21485d3d; }
+.atributo span.re  { background: #14513c3d; }
+.atributo span.df  { background: #5e24743d; }
+.atributo span.vl  { background: #7146203d; }
+.atributo span.cap { background: #491e103d; }
+.atributo span.po  { background: #443d3d3d; }
+.atributo span.ap  { background: #7672723d; }
+.atributo span.ki  { background: #712c623d; }
+.atributo span.tag { background: #19324e3d; }
 
 .talento {
   /* outline: 2px solid #cccccc; */
@@ -1069,6 +1070,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

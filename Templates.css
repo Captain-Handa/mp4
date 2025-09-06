@@ -232,8 +232,13 @@
   font-weight: 700;
   color: #1d1b1b;
   margin-left: 3px;
-  box-shadow: -3px 3px 2px 0px #336093;
-  border-radius: 50%;
+  box-shadow: -2px 2px 0px 0px #336093;
+  border-radius: 10px;
+  width: 49px;
+}
+
+.tema-escuro .atributo span {
+    color: #ffffff;
 }
 
 .atributo span b { margin-right: 6px; }
@@ -262,6 +267,11 @@
   margin-top: 3px;
   box-shadow: -3px 3px 0px 0px #2f4b9f;
   border: 3px solid #ccc;
+}
+
+.tema-escuro .atributo-tab {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #1f3164, #3a57cef7, #272b44);
 }
 
 .talento {
@@ -1085,6 +1095,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

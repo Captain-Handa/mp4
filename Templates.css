@@ -260,7 +260,7 @@
   font-weight: 700;
   margin-bottom: 7px;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #94b0ff, #a9bafff7, #8294ff);
+  background-image: linear-gradient(to right, #94b0ff, #a9baff7d, #8294ff1a);
   box-shadow: 0px 0px 3px 0px #4f6987;
   width: fit-content;
   padding: 3px;
@@ -1092,6 +1092,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

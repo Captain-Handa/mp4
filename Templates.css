@@ -1001,6 +1001,14 @@
   float: right;
 }
 
+.jornal-img {
+    box-shadow: 2px 2px 5px 0px #b3b3b3;
+    border-radius: 15px;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+  
 .jornal-text {
   padding: 12px 14px;
   font-size: 13px;
@@ -1100,6 +1108,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

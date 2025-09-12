@@ -348,6 +348,7 @@
 }
 
 .talento-box {
+  background: #fff;
   width: auto;
   height: 60px;
   text-align: left;
@@ -1108,6 +1109,7 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
 
 

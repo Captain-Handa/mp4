@@ -161,6 +161,7 @@
 .grad-defensiva { background-image: linear-gradient(to right, #248834, #76b857); }
 .grad-ativa     { background-image: linear-gradient(to right, #333d45, #37383b); }
 .grad-reativa   { background-image: linear-gradient(to right, #582488, #8251a8); }
+.grad-player { background-image: linear-gradient(to right, #244688, #2892e0) }
 
 .reativas-titulo {
   background-image: linear-gradient(to right, #582488, #8251a8);
@@ -353,6 +354,10 @@
   height: 60px;
   text-align: left;
   -webkit-box-shadow: -3px 3px 0px 0px #313131;
+}
+
+.tema-escuro .talento-box {
+  background: #171616;
 }
 
 .talento-right {
@@ -1113,4 +1118,5 @@
 .tema-escuro .info-box .note {
     color: #eca2a2;
 }
+
 
